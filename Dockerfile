@@ -7,10 +7,10 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install dependencies.
-RUN npm install
+RUN yarn install
 
 # Copy local code to the container image.
 COPY . .
 
 # Run the application.
-CMD ["npm", "start"]
+CMD ["yarn", "start"]
