@@ -6,13 +6,12 @@
   "author": "lintfail",
   "license": "MIT",
   "engines": {
-    "node": "20.x"
+    "node": "18.x"
   },
   "dependencies": {
-    "casper": "github:TryGhost/Casper#main",
-    "ghost": "^5.0.0",
     "ghost-storage-cloudinary": "2.2.1",
-    "lyra": "github:TryGhost/lyra#main",
+    "casper": "git://github.com/TryGhost/Casper.git#v5.7.4",
+    "lyra": "git://github.com/TryGhost/lyra#v1.3.2",
     "mysql2": "2.3.3"
   },
   "scripts": {

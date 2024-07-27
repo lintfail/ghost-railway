@@ -1,4 +1,4 @@
-FROM node:20
+FROM ghost:5.88.1
 
 # Create and change to the app directory.
 WORKDIR /usr/src/app
